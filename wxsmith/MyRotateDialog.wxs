@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="MyRotateDialog">
+		<size>263,302</size>
+		<handler function="OnInit" entry="EVT_INIT_DIALOG" />
+		<object class="wxRadioButton" name="ID_RADIOBUTTON1" variable="Rot90" member="yes">
+			<label>90°</label>
+			<pos>72,72</pos>
+			<handler function="OnRadioButton1Select1" entry="EVT_RADIOBUTTON" />
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON2" variable="Rot180" member="yes">
+			<label>180°</label>
+			<pos>72,120</pos>
+			<handler function="OnRadioButton2Select" entry="EVT_RADIOBUTTON" />
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON3" variable="RadioButton1" member="yes">
+			<label>-90°</label>
+			<pos>72,168</pos>
+			<handler function="OnRadioButton3Select" entry="EVT_RADIOBUTTON" />
+		</object>
+		<object class="wxButton" name="wxID_OK" variable="ButtonOk" member="yes">
+			<label>OK</label>
+			<pos>48,240</pos>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="wxID_CANCEL" variable="ButtonCancel" member="yes">
+			<label>Cancel</label>
+			<pos>168,240</pos>
+		</object>
+	</object>
+</wxsmith>

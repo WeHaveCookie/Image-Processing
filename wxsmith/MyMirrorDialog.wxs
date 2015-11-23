@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="MyMirrorDialog">
+		<size>336,158</size>
+		<id_arg>0</id_arg>
+		<object class="wxRadioButton" name="ID_RADIOBUTTONHOR" variable="RadioButtonHor" member="yes">
+			<label>Horizontal</label>
+			<pos>56,48</pos>
+			<handler function="OnRadioButton1Select" entry="EVT_RADIOBUTTON" />
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTONVER" variable="RadioButtonVer" member="yes">
+			<label>Vertical</label>
+			<pos>200,48</pos>
+		</object>
+		<object class="wxButton" name="wxID_OK" variable="ButtonOk" member="yes">
+			<label>OK</label>
+			<pos>48,104</pos>
+		</object>
+		<object class="wxButton" name="wxID_CANCEL" variable="ButtonCancel" member="yes">
+			<label>Cancel</label>
+			<pos>200,104</pos>
+		</object>
+	</object>
+</wxsmith>
